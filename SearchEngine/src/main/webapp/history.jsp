@@ -7,7 +7,7 @@
 <body>
 <h1><a class="h1" href="http://localhost:8080/SearchEngine/">Explore</a></h1>
 <form action = "Search">
-     <input type="text" class="search" placeholder = "Search Your Favourite Topic" name="keyword"></input>
+     <input type="text" class="search" placeholder = "Search Your Favourite Topic" name="keyword" required></input>
      <button type="submit" class="search-btn" >Search</button>
 </form>
 

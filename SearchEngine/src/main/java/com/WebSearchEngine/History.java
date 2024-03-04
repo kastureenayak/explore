@@ -26,7 +26,7 @@ public class History extends HttpServlet {
                 results.add(historyResult);
             }
             request.setAttribute("results",results);
-            request.getRequestDispatcher("/history.jsp").forward(request,response);
+            request.getRequestDispatcher("history.jsp").forward(request,response);
             response.setContentType("text/html");
             PrintWriter out=response.getWriter();
         }
