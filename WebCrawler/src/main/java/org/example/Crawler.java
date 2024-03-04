@@ -47,5 +47,3 @@ public class Crawler {
         crawler.getPageTextsAndLinks("https://www.javatpoint.com/",0);
     }
 }
-
-// apsdfasdf
